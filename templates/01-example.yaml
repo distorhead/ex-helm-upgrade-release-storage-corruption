@@ -12,6 +12,6 @@ spec:
         service: mydeploy
     spec:
       containers:
-      - name: main
+      - nam: main
         image: ubuntu:18.04
         command: [ "/bin/bash", "-c", "while true; do date ; sleep 1 ; done" ]
